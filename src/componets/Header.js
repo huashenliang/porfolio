@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import projectsData from './projectsData';
 
 class Header extends Component {
     state = {  }
@@ -14,7 +15,7 @@ class Header extends Component {
                 <p className='header-title'>
                     Web Developer 
                 <br></br>
-                    <button><a> Contact Me </a></button>
+                    <button><a href={`mailto:${projectsData.email}`}> Contact Me </a></button>
                 </p>
                 </Fade>
             </div>

@@ -6,7 +6,7 @@ class About extends Component {
     state = { }
     render() { 
         return ( 
-            <div className='about'>
+            <div name='About' className='about'>
                 <div className='about-content'>
                     <h1>
                         <Fade bottom cascade>

@@ -25,13 +25,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-} */
+}
 
 /* ----------------------
 HEADER SECTION
 ---------------------- */
-
-
 .App-header {
   position: relative;
   min-height: 100vh;
@@ -239,4 +237,5 @@ Contact SECTION
 .footer a{
   text-decoration: none;
   color:#2c59fb;
-}
+} 
+
