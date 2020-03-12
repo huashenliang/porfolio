@@ -239,3 +239,29 @@ Contact SECTION
   color:#2c59fb;
 } 
 
+/* ----------------------
+SkillSet SECTION
+---------------------- */
+.skillset{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left:15em;
+  top:8em;
+  align-items: flex-start;
+}
+.skillset .heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  text-align: left;
+}
+.skillset .skillset-content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2em;
+}
+
+.skills img{
+width: 30em;  
+height: 30em;
+}
