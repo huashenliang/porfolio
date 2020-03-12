@@ -11,24 +11,63 @@ class Navbar extends Component {
         return (
         <nav>
             <ul>
-                {this.state.navBar.map(n => {
-                    return(
-                        <li>
-                            <Link
-                            className='link'
-                            activeClass="active"
-                            to={n}
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                            onClick={this.scrollToTop}
-                        >
-                            {n.toUpperCase()}
-                            </Link>
-                        </li>
-                    )
-                })}
+                <li>
+                    <Link
+                    className='link'
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    onClick={this.scrollToTop}
+                >
+                    HOME
+                    </Link>
+                </li>
+
+
+                <li>
+                    <Link
+                    className='link'
+                    activeClass="active"
+                    to="About"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >   
+                    ABOUT
+                    </Link>
+                </li>
+
+                <li>
+                    <Link
+                    className='link'
+                    activeClass="active"
+                    to="work"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    WORK
+                    </Link>
+                </li>
+
+                <li>
+                    <Link
+                    className='link'
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    CONTACT
+                    </Link>
+                </li>
             </ul>
         </nav> );
     }
