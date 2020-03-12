@@ -20,7 +20,7 @@ class Navbar extends Component {
                     duration={500}
                     onClick={this.scrollToTop}
                 >
-                    Home
+                    HOME
                     </Link>
                 </li>
 
@@ -35,7 +35,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                 >   
-                    About
+                    ABOUT
                     </Link>
                 </li>
 
@@ -49,7 +49,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                 >
-                    Work
+                    WORK
                     </Link>
                 </li>
 
@@ -63,7 +63,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                 >
-                    Contact
+                    CONTACT
                     </Link>
                 </li>
             </ul>
