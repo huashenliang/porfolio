@@ -200,7 +200,7 @@ Contact SECTION
 
 .contact{
   position: relative;
-  top:20em;
+  top:30em;
   left:15em;
   text-align: left;
 }
@@ -209,10 +209,10 @@ Contact SECTION
   font-size: 5em;
   text-align: left;
 }
-.amazing-color{
+/* .amazing-color{
   color:#9352ae;
   opacity: 1;
-}
+} */
 
 .contact .email{
   color:black;
@@ -247,7 +247,7 @@ SkillSet SECTION
   display: flex;
   flex-direction: column;
   left:15em;
-  top:8em;
+  top:20em;
   align-items: flex-start;
 }
 .skillset .heading{
@@ -257,11 +257,11 @@ SkillSet SECTION
 }
 .skillset .skillset-content{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(4,1fr);
   grid-gap: 2em;
 }
 
 .skills img{
-width: 30em;  
-height: 30em;
+width: 10em;  
+height: 10em;
 }
