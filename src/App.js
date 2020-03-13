@@ -6,9 +6,10 @@ import About from './componets/About'
 import Work from './componets/Work'
 import Contact from './componets/Contact'
 import SkillSet from './componets/SkillSet'
-
+import Container from 'react-bootstrap/Container';
 function App() {
   return (
+<Container>
     <div className="App">
       <Navbar />
       <div className='App-header'> 
@@ -29,6 +30,7 @@ function App() {
       </div>
     
     </div>
+    </Container>
     
   );
 }
