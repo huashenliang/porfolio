@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import img from '../images/aboutme.png'
-import { Emoji } from 'emoji-mart'
 
 class About extends Component {
     state = { 
