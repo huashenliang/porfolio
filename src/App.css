@@ -11,7 +11,7 @@ body{
 
   
   .App {
-    text-align: center;
+    
     width: 100%;
   }
   
@@ -151,9 +151,10 @@ Work SECTION
 .work{
   position: relative;
   display: flex;
-  left:17em;
+  align-items: center;
+  justify-content: center;
   top:10em;
-  align-items: flex-start;
+
 }
 
 
@@ -183,9 +184,11 @@ SkillSet SECTION
   position: relative;
   display: flex;
   flex-direction: column;
-  left:17em;
+  align-items: center;
+  justify-content: center;
   top:30em;
-  align-items: flex-start;
+  right: 6em;
+  
 }
 .skillset .heading{
   font-family: 'Montserrat', sans-serif;
