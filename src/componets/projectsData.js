@@ -6,6 +6,7 @@
  import netLogo from '../images/net.png'
 
  export default{
+   
    projects: [
       {
        id: 1,
@@ -126,11 +127,5 @@
         imageSrc: "https://s.w.org/style/images/about/WordPress-logotype-simplified.png",
         url:''
     },
-
-    
-
-    
-
-    
  ]
 }

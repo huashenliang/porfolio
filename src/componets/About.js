@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import img from '../images/aboutme.png'
+import { Emoji } from 'emoji-mart'
 
 class About extends Component {
-    state = { }
+    state = { 
+    
+    }
     render() { 
         return ( 
             <div name='About' className='about'>
@@ -14,9 +17,15 @@ class About extends Component {
                         </Fade>
                     </h1>
                     <Fade bottom>
+                 
                         <p>
-                            Hello, my name is Huashen Liang.
-
+                            I am a recent graduate of Georgian College with a Diploma in computer programming. 
+                            In 2017, I graduated from the University of Leicester in the UK with a Bachelor degree 
+                            in Business Management.  
+                        </p>
+                        <br />
+                        <p>
+                            I am a passionate programmer who can turn coffee into code   
                         </p>
                     </Fade>
                     </div>
