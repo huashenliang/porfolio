@@ -151,7 +151,7 @@ Work SECTION
 .work{
   position: relative;
   display: flex;
-  left:15em;
+  left:17em;
   top:10em;
   align-items: flex-start;
 }
@@ -183,7 +183,7 @@ SkillSet SECTION
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
+  left:17em;
   top:30em;
   align-items: flex-start;
 }
