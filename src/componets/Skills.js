@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Projects from './Projects';
+import Skill from './Skill';
 import Fade from 'react-reveal/Fade';
 import projectsData from './projectsData.js'
 
 class Skills extends Component {
     state = {  }
     render() { 
-        console.log(projectsData);
         return ( 
             <div>
                 <h1 className='heading'>
@@ -16,14 +15,14 @@ class Skills extends Component {
                 </h1>
                 <div className='work-content'>
                     {projectsData.projects.map(p => (
-                        <Projects 
+                        <Skill 
                             key = {p.id}
                             title = {p.title}
                             service = {p.service}
                             imageSrc = {p.imageSrc}
                             url = {p.url}
                         >
-                        </Projects>
+                        </Skill>
                     ))}
                 </div>
             </div>

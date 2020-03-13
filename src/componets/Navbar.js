@@ -65,7 +65,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                 >
-                    Skills
+                    SKILLS
                     </Link>
                 </li>
 

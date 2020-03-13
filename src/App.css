@@ -110,19 +110,24 @@ Navbar SECTION
 ---------------------- */
 nav{
   position:fixed;
-  left:60em;
+  left:55em;
   top:6em;
   z-index: 100;
 }
 nav li{
   display: inline-block;
   cursor: pointer;
+}
 
+nav li > .active  {
+  /* background-color: grey; */
+  border: 1px solid #333;
+   
 }
 nav li .link{
   text-decoration: none;
   color: black;
-  padding:1em;
+  padding: 1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -132,10 +137,10 @@ nav li .link{
 }
 li .link:hover{
   opacity: 1;
-  font-size: 20px;
+  font-size: 15px;
 }
 .active{
-  color:black;
+  color: white;
   opacity: 1;
 }
 
